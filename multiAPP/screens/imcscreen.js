@@ -4,7 +4,7 @@ import { View, Text, StyleSheet } from 'react-native';
 export default function imcscreen({ navigation }){
   return (
     <View style={styles.container}>
-      <Text>Esta é a Tela Medidas!</Text>
+      <Text>Esta é a Tela IMC!</Text>
     </View>
   );
 }

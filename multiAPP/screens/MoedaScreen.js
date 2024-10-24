@@ -50,7 +50,7 @@ export default function MoedaScreen({ navigation }) {
 
   return (
     <View style={styles.container}>
-      <Text>Esta é a Tela Moedas!</Text>
+      <Text style={styles.title}>Conversor de Moedas!</Text>
       <TextInput
         style={styles.input}
         placeholder="Valor"
@@ -94,7 +94,7 @@ const styles = StyleSheet.create({
     borderColor: 'gray',
     borderWidth: 1,
     marginBottom: 10,
-    width: '100%',
+    width: '20%',
     paddingHorizontal: 10,
   },
   button: {
@@ -102,7 +102,7 @@ const styles = StyleSheet.create({
     padding: 10,
     borderRadius: 5,
     marginBottom: 10, 
-    width: '100%',
+    width: '20%',
     alignItems: 'center',
   },
   buttonText: {
@@ -112,5 +112,9 @@ const styles = StyleSheet.create({
   resultado: {
     marginTop: 20,
     fontSize: 16,
+  },
+  title: {
+    fontSize: 20,
+    marginBottom: 20,
   },
 });
